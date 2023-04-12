@@ -2,27 +2,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="../assets/CSS/main.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/CSS/punto3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
-<div>
-    <h1>Nueva nota</h1>
     <div>
-        <input type="text" placeholder="Titulo" id="tituloNota">
-        <textarea name="" id="textoNota" cols="30" rows="10" placeholder="Escribe tu nota aqui."></textarea>
+        <h1>Nueva nota</h1>
+        <div>
+            <input type="text" placeholder="Titulo" id="tituloNota">
+            <textarea name="" id="textoNota" cols="30" rows="10" placeholder="Escribe tu nota aqui."></textarea>
+        </div>
+        <div>
+            <button onclick="guardarNota()">Guardar</button>
+            <button onclick="borrar()">Borrar</button>
+        </div>
     </div>
-    <div>
-        <button onclick="guardarNota()" >Guardar</button>
-        <button onclick="borrar()">Borrar</button>
+    <div class="contenedor">
+        <div class="card text-center mb-3" style="width: 18rem;">
+            <div class="card-body">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1"> Name Task </label>
+                </div>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" class="btn btn-danger"> Borrar Nota </button>
+            </div>
+        </div>
     </div>
-</div>
     <!-- JS -->
     <script src="../JS/punto3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
