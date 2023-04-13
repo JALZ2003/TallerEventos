@@ -1,8 +1,10 @@
-/**Se guardo las notas en el array en la siguiente funcion */
-function guardarNotas() {
+
+function guardarNota() {
     const idGlobal = 0;
+
     let titulo = document.getElementById("tituloNota").value;
     let texto = document.getElementById("textoNota").value;
+
     let cajaDeNotas = [];
     const nuevaNota = {
         id: idGlobal + 1,
@@ -12,6 +14,8 @@ function guardarNotas() {
 
     }
     cajaDeNotas.push(nuevaNota)
-    console.log(cajaDeNotas)
+console.log(cajaDeNotas)
 }
+
+
 
