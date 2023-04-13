@@ -1,25 +1,6 @@
 const contenedorDeTarjetas = document.querySelector(".contenedor");
 
-notas = [
-    {
-        id: 1,
-        titulo: "Sacar la basura",
-        texto: "me van a regañar si no",
-        realizada: false,
-    },
-    {
-        id: 2,
-        titulo: "hacer la tarea",
-        texto: "se debe subir hasta el miercoles",
-        realizada: false,
-    },
-    {
-        id: 3,
-        titulo: "hacer la tarea",
-        texto: "se debe subir hasta el miercoles",
-        realizada: false,
-    },
-]
+
 function guardarNota() {
     removerElementos();
     const idGlobal = obtenerIdMayor();
