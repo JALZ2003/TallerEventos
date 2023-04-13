@@ -39,7 +39,9 @@
     border-color: #0066ff;
     box-shadow: 0 0 5px rgba(0, 102, 255, 0.5);
 }
-
+button.hover{
+    background-color: aqua;
+}
 .Container-adicionar-notas button {
     display: inline-block;
     background-color: #0066ff;
