@@ -4,23 +4,26 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/CSS/main.css">
+    <link rel="stylesheet" href="../assets/CSS/pagina3.css">
 
     <title>Document</title>
 </head>
 
 <body>
-<div>
+<div id="contenedor-solicitar-informacion">
     <h1>Nueva nota</h1>
     <div>
         <input type="text" placeholder="Titulo" id="tituloNota">
         <textarea name="" id="textoNota" cols="30" rows="10" placeholder="Escribe tu nota aqui."></textarea>
     </div>
     <div>
-        <button onclick="guardarNota()" >Guardar</button>
+        <button onclick="guardarNotas()" >Guardar</button>
         <button onclick="borrar()">Borrar</button>
     </div>
 </div>
+<div id="contenedor-tarjetas"></div>
+
+
     <!-- JS -->
     <script src="../JS/punto3.js"></script>
 </body>
